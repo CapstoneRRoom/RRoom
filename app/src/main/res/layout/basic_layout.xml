@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <include layout="@layout/titlebar"/>
+
+    <Button
+        android:background="@color/white"
+        android:text="내가 쓴 글"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="30dp">
+    </Button>
+    <Button
+        android:background="@color/white"
+        android:text="댓글 단 글"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="30dp">
+    </Button>
+    <Button
+        android:background="@color/white"
+        android:text="스크랩"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="30dp">
+    </Button>
+    <Button
+        android:background="@color/white"
+        android:text="HOT 게시판"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="30dp">
+    </Button>
+
+    <View
+        android:background="#D3D3D3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <Button
+        android:background="@color/white"
+        android:text="자유게시판"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="30dp">
+    </Button>
+    <Button
+        android:background="@color/white"
+        android:text="정보게시판"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="30dp">
+    </Button>
+    <Button
+        android:background="@color/white"
+        android:text="장터게시판"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="start|center_vertical"
+        android:paddingStart="30dp">
+    </Button>
+
+
+    <include layout="@layout/navibar" />
+</LinearLayout>
