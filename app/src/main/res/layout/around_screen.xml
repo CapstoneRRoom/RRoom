@@ -25,16 +25,16 @@
             android:text="음식점"
             android:textSize="25sp"
             android:textColor="@color/black" />
-        <ImageButton
+        <Button
             android:layout_marginTop="6dp"
             android:layout_width="80dp"
             android:layout_height="77dp"
-            android:src="@drawable/rectangle_39"/>
-        <ImageButton
+            android:background="@drawable/rectangle_39"/>
+        <Button
             android:layout_marginTop="18dp"
             android:layout_width="80dp"
             android:layout_height="77dp"
-            android:src="@drawable/rectangle_39"/>
+            android:background="@drawable/rectangle_39"/>
         
         <ImageView
             android:layout_marginTop="13dp"
@@ -49,16 +49,16 @@
             android:text="카페"
             android:textSize="25sp"
             android:textColor="@color/black" />
-        <ImageButton
+        <Button
             android:layout_marginTop="6dp"
             android:layout_width="80dp"
             android:layout_height="77dp"
-            android:src="@drawable/rectangle_39"/>
-        <ImageButton
+            android:background="@drawable/rectangle_39"/>
+        <Button
             android:layout_marginTop="18dp"
             android:layout_width="80dp"
             android:layout_height="77dp"
-            android:src="@drawable/rectangle_39"/>
+            android:background="@drawable/rectangle_39"/>
 
         <ImageView
             android:layout_marginTop="13dp"
@@ -73,11 +73,11 @@
             android:text="가볼 만한 곳"
             android:textSize="25sp"
             android:textColor="@color/black" />
-        <ImageButton
+        <Button
             android:layout_marginTop="6dp"
             android:layout_width="80dp"
             android:layout_height="77dp"
-            android:src="@drawable/rectangle_39"/>
+            android:background="@drawable/rectangle_39"/>
 
     </LinearLayout>
 
