@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/titlebar"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="내 정보"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/my" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="257dp"
+            android:layout_height="63dp"
+            android:layout_weight="1"
+            android:text="이름"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:translationY="15dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:paddingStart="30dp"
+        android:text="계정"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="아이디"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingStart="30dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="비밀번호 변경"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingStart="30dp"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="이메일 변경"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingStart="30dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="앱 설정"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:paddingStart="30dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="알림 설정"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingStart="30dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="암호 잠금"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingStart="30dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="다크 모드"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingStart="30dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기타"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:paddingStart="30dp"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="회원 탈퇴"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingStart="30dp"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="로그아웃"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:paddingStart="30dp"/>
+
+    <include layout="@layout/navibar" />
+
+</LinearLayout>
