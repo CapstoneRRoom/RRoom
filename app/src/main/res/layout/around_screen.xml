@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/titlebar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="13.5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내 방 근처 핫플"
+            android:textSize="28sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="음식점"
+            android:textSize="25sp"
+            android:textColor="@color/black" />
+        <ImageButton
+            android:layout_marginTop="6dp"
+            android:layout_width="80dp"
+            android:layout_height="77dp"
+            android:src="@drawable/rectangle_39"/>
+        <ImageButton
+            android:layout_marginTop="18dp"
+            android:layout_width="80dp"
+            android:layout_height="77dp"
+            android:src="@drawable/rectangle_39"/>
+        
+        <ImageView
+            android:layout_marginTop="13dp"
+            android:layout_width="384dp"
+            android:layout_height="1dp"
+            android:background="@drawable/center_line" />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카페"
+            android:textSize="25sp"
+            android:textColor="@color/black" />
+        <ImageButton
+            android:layout_marginTop="6dp"
+            android:layout_width="80dp"
+            android:layout_height="77dp"
+            android:src="@drawable/rectangle_39"/>
+        <ImageButton
+            android:layout_marginTop="18dp"
+            android:layout_width="80dp"
+            android:layout_height="77dp"
+            android:src="@drawable/rectangle_39"/>
+
+        <ImageView
+            android:layout_marginTop="13dp"
+            android:layout_width="384dp"
+            android:layout_height="1dp"
+            android:background="@drawable/center_line"/>
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가볼 만한 곳"
+            android:textSize="25sp"
+            android:textColor="@color/black" />
+        <ImageButton
+            android:layout_marginTop="6dp"
+            android:layout_width="80dp"
+            android:layout_height="77dp"
+            android:src="@drawable/rectangle_39"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/navibar" />
+
+</LinearLayout>
