@@ -38,7 +38,8 @@
                     android:text="홈"
                     android:textSize="15sp"
                     android:gravity="center"
-                    android:layout_gravity="center">
+                    android:layout_gravity="center"
+                    android:textColor="@color/black">
                 </TextView>
             </LinearLayout>
             <LinearLayout
@@ -60,7 +61,8 @@
                     android:text="방"
                     android:textSize="15sp"
                     android:gravity="center"
-                    android:layout_gravity="center">
+                    android:layout_gravity="center"
+                    android:textColor="@color/black">
                 </TextView>
             </LinearLayout>
             <LinearLayout
@@ -104,7 +106,8 @@
                     android:text="게시판"
                     android:textSize="15sp"
                     android:gravity="center"
-                    android:layout_gravity="center">
+                    android:layout_gravity="center"
+                    android:textColor="@color/black">
                 </TextView>
             </LinearLayout>
             <LinearLayout
@@ -126,7 +129,8 @@
                     android:text="내정보"
                     android:textSize="15sp"
                     android:gravity="center"
-                    android:layout_gravity="center">
+                    android:layout_gravity="center"
+                    android:textColor="@color/black">
                 </TextView>
             </LinearLayout>
 
